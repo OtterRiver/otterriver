@@ -21,10 +21,11 @@
 }
 
 #mainNav .navbar-brand {
-  color: #feb24c;
-  font-family: 'Rye';
-  font-weight: 100;
-  padding: .9rem 0;
+  background: url("../img/drumhead.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 3rem;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -52,26 +53,26 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
-    -webkit-transition: background-color 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
-    font-family: 'Rye';
-    color: rgba(255, 255, 255, 0.0);
+    background: url("../img/drumhead.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 6rem;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.0);
+    color: #feb24c;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.0);
+    color: #ffffb2;
   }
   #mainNav .nav-link:active {
-    color: rgba(255, 255, 255, 0.0);
+    color: #ffffb2;
   }
   #mainNav.navbar-shrink {
     background-color: rgba(0, 0, 0, 0.5);
@@ -87,11 +88,8 @@
   #mainNav.navbar-shrink .nav-link:hover {
     color: #ffffb2;
   }
-  #mainNav.navbar-shrink .nav-link:active {
-    color: #ffffb2;
-  }
   #mainNav.navbar-shrink .nav-link.active {
-    color: ##ffffb2;
+    color: #ffffb2;
     outline: none;
     border-bottom: 0.25rem solid #feb24c;
   }
@@ -116,7 +114,6 @@
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.9)), to(#161616)), url("../img/otter-river-mobile.jpg");
     background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.9) 75%, #161616 100%), url("../img/otter-river-mobile.jpg");
     background-size: contain;
-
   }
 }
 
