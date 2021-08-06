@@ -39,6 +39,7 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
+
 </head>
 
 <body id="page-top">
@@ -163,36 +164,36 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">Outlaw Country, Southeast Michigan Style</h2>
-          <p class="text-white-50">Otter River is an authentic 6-piece band with pedal steel and fiddle covering country and honky tonk tunes from many legends of the 1940s-70s, as well as several originals in similar styles.</p>
+          <p class="text-white-50">Otter River is an authentic 5-piece band with pedal steel and fiddle covering country and honky tonk tunes from many legends of the 1940s-70s, as well as several originals in similar styles.</p>
         </div>
       </div>
 
       <div class="row justify-content-md-center">
 
 
-        <div class="col-md-3 mb-2 mb-md-4">
+        <div class="col-md-2 mb-2 mb-md-4">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <img class="card-circle-image mb-3" src="img/andy.jpg" alt="Photo of Andy" />
               <h4 class="text-black m-0">Andy Henriksen</h4>
               <hr class="my-4">
-              <div class="small text-black">Steel Guitar, Vocals</div>
+              <div class="small text-black">Steel Guitar, Vocals, Rhythm Guitar</div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-4">
+        <div class="col-md-2 mb-2 mb-md-4">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <img class="card-circle-image mb-3" src="img/hilary.jpg" alt="Photo of Hilary" />
               <h4 class="text-black m-0">Hilary Finchum</h4>
               <hr class="my-4">
-              <div class="small text-black">Fiddle, Vocals</div>
+              <div class="small text-black">Fiddle, Vocals, Rhythm Guitar</div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-4">
+        <div class="col-md-2 mb-2 mb-md-4">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <img class="card-circle-image mb-3" src="img/josh.jpg" alt="Photo of Josh" />
@@ -203,7 +204,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-4">
+        <div class="col-md-2 mb-2 mb-md-4">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <img class="card-circle-image mb-3" src="img/mike.jpg" alt="Photo of Mike" />
@@ -214,24 +215,13 @@
           </div>
         </div>
 
-        <div class="col-md-3 mb-2 mb-md-4">
+        <div class="col-md-2 mb-2 mb-md-4">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img class="card-circle-image mb-3" src="img/rob.jpg" alt="Photo of Rob" />
-              <h4 class="text-black m-0">Rob Clapsaddle</h4>
+              <img class="card-circle-image mb-3" src="img/jim.jpg" alt="Photo of Jim" />
+              <h4 class="text-black m-0">Jim Weyman</h4>
               <hr class="my-4">
               <div class="small text-black">Drums</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 mb-2 mb-md-4">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <img class="card-circle-image mb-3" src="img/shane.jpg" alt="Photo of Shane" />
-              <h4 class="text-black m-0">Shane Siemen</h4>
-              <hr class="my-4">
-              <div class="small text-black">Rhythm Guitar, Vocals</div>
             </div>
           </div>
         </div>
@@ -273,7 +263,7 @@
     <!-- Footer -->
     <footer class="footer small text-center">
       <div class="container">
-        <p class="mb-0 text-white-50">Copyright © 2019-2020, Otter River. All rights reserved.</p>
+        <p class="mb-0 text-white-50">&copy; 2019-<span id="current-year"></span>, Otter River. All rights reserved.</p>
         <hr class="d-none d-lg-block mb-0 mr-0">
       </div>
     </footer>
@@ -287,6 +277,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- Script to put current year in footer -->
+    <script>
+      document.getElementById("current-year").innerHTML = new Date().getFullYear();
+    </script>
 
   </body>
 
